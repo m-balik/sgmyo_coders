@@ -1,0 +1,7 @@
+SELECT 
+      [CompanyName]
+      ,[ContactName]
+      ,[Address]
+      ,[City]
+      ,[Country]
+  FROM [yusuf].[dbo].[Customers] WHERE Country='Brazil';
