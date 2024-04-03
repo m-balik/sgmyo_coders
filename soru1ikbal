@@ -1,0 +1,9 @@
+Brazil’de bulunan müşterilerin Şirket Adı, TemsilciAdi, Adres, Şehir, Ülke bilgileri
+
+SELECT 
+      [CompanyName]
+      ,[ContactName]
+      ,[Address]
+      ,[City]
+      ,[Country]
+  FROM [yusuf].[dbo].[Customers] WHERE Country='Brazil';
